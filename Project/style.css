@@ -31,7 +31,7 @@ header {
     /* Separa o título da nav */
     justify-content: space-around;
     gap: 10%;
-    height: 5vh;
+    height: 6vh;
 }
 
 nav ul {
@@ -75,6 +75,7 @@ h2 {
 /* ----------Footer----------- */
 footer {
     justify-content: end;
+    height: 9vh;
 }
 
 .nav-links:hover {
