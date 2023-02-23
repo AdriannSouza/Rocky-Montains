@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;0,900;1,300;1,600&display=swap');
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    /* Color, image, repeat, position */
+    background: grey url(../Images/montains-ice-day-fadded3.jpg) no-repeat left;
+    background-size: cover;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+header, footer, main {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+
+
+
+/* ----------Header----------- */
+header {
+    /* Separa o título da nav */
+    justify-content: space-around;
+    gap: 20%;
+    height: 10vh;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+/* ----------Main----------- */
+main {
+    justify-content: center;
+    height: 85vh;
+}
+
+section {
+    border-radius: 10px;
+}
+
+#message {
+    margin-top: 10px;
+    max-width: 500px;
+    text-align: center;
+}
+
+#main-title {
+    padding: 25px;
+    font-size: 36px;
+    width: fit-content;
+}
+
+/* ----------Footer----------- */
+footer {
+    justify-content: end;
+    height: 5vh;
+}
+
+.nav-links:hover, #main-title:hover {
+    color: rgb(133, 248, 210);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#main-title:hover {
+    font-size: 37px;
+    border-radius: 10px;
+    
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+#footer-container {
+    margin: 2px 10px;
+}
+
+#my-name {
+    font-weight: 500;
+    color: rgb(121, 241, 201);
+}
+
