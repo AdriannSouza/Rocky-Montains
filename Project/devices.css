@@ -30,7 +30,7 @@ header, footer, main {
 header {
     /* Separa o título da nav */
     justify-content: space-around;
-    gap: 20%;
+    gap: 10%;
     height: 10vh;
 }
 
@@ -54,24 +54,28 @@ main {
 
 section {
     border-radius: 10px;
+    text-align: center;
 }
 
 #message {
     margin-top: 10px;
     max-width: 500px;
-    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.89);
+    font-size: 1.25em;
 }
 
-#main-title {
+h2 {
+    font-size: 2.25em;
+}
+
+#main_title {
     padding: 25px;
-    font-size: 36px;
     width: fit-content;
 }
 
 /* ----------Footer----------- */
 footer {
     justify-content: end;
-    height: 5vh;
 }
 
 .nav-links:hover, #main-title:hover {
@@ -81,15 +85,14 @@ footer {
 }
 
 #main-title:hover {
-    font-size: 37px;
-    border-radius: 10px;
+    font-size: 2.375em;
     
     transition: 0.5s;
     background-color: rgba(0, 0, 0, 0.24);
 }
 
 #footer-container {
-    margin: 2px 10px;
+    margin: 20px 15px 0px 0px;
 }
 
 #my-name {
@@ -97,3 +100,26 @@ footer {
     color: rgb(121, 241, 201);
 }
 
+#icon {
+    display: none;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    #icon {
+        display: block;
+    }
+
+    #itens {
+        display: none;
+    }
+
+    section {
+        text-align: center;
+    }
+
+    #message {
+        padding: 0px 20px;
+        font-size: 1.125m;
+    }
+}
