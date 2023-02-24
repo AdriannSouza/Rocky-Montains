@@ -13,7 +13,7 @@ body {
     /* Color, image, repeat, position */
     background: grey url(../Images/original/original.jpg) no-repeat center;
     background-size: cover;
-
+    /*Abrange toda a tela*/
     width: 100vw;
     height: 100vh;
 }
@@ -51,7 +51,6 @@ main {
 }
 
 section {
-    /**/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,11 +68,15 @@ section {
 #main-title {
     font-size: 2.25em;
     width: fit-content;
+    
     padding: 20px;
 }
 
 #main-title:hover {
     font-size: 2.35em;
+    color: rgb(180, 179, 179);
+    background-color: rgba(0, 0, 0, 0.212);
+    border-radius: 8px;
     transition: 0.6s;
 }
 
@@ -96,6 +99,11 @@ footer {
 
 #my-name {
     font-weight: 500;
+}
+
+#my-name:hover {
+    color: rgb(180, 179, 179);
+    transition: 0.55s;
 }
 
 #icon {
