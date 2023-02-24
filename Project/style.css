@@ -51,6 +51,7 @@ main {
 }
 
 section {
+    /**/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,4 +100,42 @@ footer {
 
 #icon {
     display: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    #icon {
+        display: block;
+    }
+
+    #itens {
+        display: none;
+    }
+
+    section {
+        text-align: center;
+    }
+
+    #title_header {
+        font-size: 1.3em;
+    }
+
+    #main-title {
+        font-size: 1.6625em;
+        margin: 0px 20px 0px 20px;
+    }
+
+    #message {
+        width: 300px;
+        margin: auto;
+        padding: 0px 20px;
+        font-size: 1.065em;
+    }
+
+    #main-title:hover {
+        font-size: 1.78em;
+        
+        transition: 0.5s;
+        background-color: rgba(0, 0, 0, 0.137);
+        color: rgb(180, 179, 179);
+    }
 }
