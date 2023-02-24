@@ -11,7 +11,7 @@
 
 body {
     /* Color, image, repeat, position */
-    background: grey url(../Images/montains-ice-day-fadded3.jpg) no-repeat center;
+    background: grey url(../Images/original/original\ image\ fadded.jpg) no-repeat center;
     background-size: cover;
 
     width: 100vw;
@@ -33,7 +33,7 @@ header {
     height: 12vh;
 }
 
-nav ul {
+ul {
     display: flex;
     gap: 20px;
 }
@@ -51,13 +51,17 @@ main {
 }
 
 section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
     margin: 10px;
 }
 
 #message {
     max-width: 500px;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.89);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.705);
     font-size: 1.25em;
 }
 
@@ -82,11 +86,7 @@ footer {
 
 #main-title:hover {
     font-size: 2.35em;
-    
     transition: 0.6s;
-    background-color: rgba(0, 0, 0, 0.185);
-    color: rgb(199, 198, 198);
-    border-radius: 8px;
 }
 
 #footer-container {
@@ -99,43 +99,4 @@ footer {
 
 #icon {
     display: none;
-}
-
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
-    #icon {
-        display: block;
-    }
-
-    #itens {
-        display: none;
-    }
-
-    section {
-        text-align: center;
-    }
-
-    #title_header {
-        font-size: 1.3em;
-    }
-
-    #main-title {
-        font-size: 1.6625em;
-        margin: 0px 20px 0px 20px;
-    }
-
-    #message {
-        width: 300px;
-        margin: auto;
-        padding: 0px 20px;
-        font-size: 1.065em;
-    }
-
-    #main-title:hover {
-        font-size: 1.78em;
-        
-        transition: 0.5s;
-        background-color: rgba(0, 0, 0, 0.137);
-        color: rgb(180, 179, 179);
-    }
 }
