@@ -9,11 +9,7 @@
     color: white;
 }
 
-#rock_texture {
-
-}
-
-#blank_space {
+.blank_space {
     height: 7.5vh;
 }
 
@@ -28,29 +24,21 @@
 }
 
 #first_image {
-    background: grey url(images/paralax2.jpg) no-repeat fixed;
+    background: grey url(images/paralax-fadded.jpg) no-repeat center fixed;
     background-size: cover; 
 }
 
 #second_image {
-    background: grey url(images/wildlife-mammals.jpg) no-repeat fixed;
+    background: grey url(images/wildlife-mammals-fadded.jpg) no-repeat fixed;
     background-size: cover; 
 }
 
 #third_image {
-    background: grey url(images/moraine-lake.jpg) center no-repeat fixed;
+    background: grey url(images/moraine-lake-fadded.jpg) center no-repeat fixed;
     background-size: cover; 
 }
 
 .text_section {
     max-width: 250px;
     text-align: center;
-}
-
-.sec_title {
-
-}
-
-.sec_message {
-    
 }
