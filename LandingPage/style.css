@@ -11,7 +11,7 @@
 
 body {
     /* Color, image, repeat, position */
-    background: grey url(../Images/original/original.jpg) no-repeat center;
+    background: grey url(../LandingPage/Images/original/original\ image\ fadded.jpg) no-repeat center;
     background-size: cover;
     /*Abrange toda a tela*/
     width: 100vw;
@@ -113,7 +113,7 @@ footer {
 @media screen and (min-width: 320px) and (max-width: 480px) {
 
     body {
-            background:gray url(../Images/resized/320_x_900.jpg) no-repeat center;
+            background:gray url(../LandingPage/Images/resized/320_x_900.jpg) no-repeat center;
     }
 
     #icon {
@@ -155,7 +155,7 @@ footer {
 /* Mobile S */
 @media screen and (min-width: 320px) and (max-width: 375px) {
     body {
-        background: grey url(../Images/resized/375_x_900.jpg) no-repeat center;
+        background: grey url(../LandingPage/Images/resized/375_x_900.jpg) no-repeat center;
     }
 
     #main-title {
@@ -170,56 +170,56 @@ footer {
 /* Mobile M */
 @media screen and (min-width: 375px) and (max-width: 425px) {
     body {
-        background: grey url(../Images/resized/425_x_900.jpg) no-repeat center;
+        background: grey url(../LandingPage/Images/resized/425_x_900.jpg) no-repeat center;
     }
 }
 
 /* Mobile L */
 @media screen and (min-width: 425px) and (max-width: 768px) {
     body {
-        background: grey url(../Images/resized/768_x_1080.jpg) no-repeat center;
+        background: grey url(../LandingPage/Images/resized/768_x_1080.jpg) no-repeat center;
     }
 }
 
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        background: grey url(../Images/resized/992_x_1080.jpg) no-repeat center;
+        background: grey url(../LandingPage/Images/resized/992_x_1080.jpg) no-repeat center;
     }
 }
 
 /* Laptop S */
 @media screen and (min-width: 992px) and (max-width: 1024px) {
     body {
-        background: grey url(../Images/resized/1024_x_1080.jpg) no-repeat center;
+        background: grey url(../LandingPage/Images/resized/1024_x_1080.jpg) no-repeat center;
     }
 }
 
 /* Laptop M */
 @media screen and (min-width: 1024px) and (max-width: 1600px) {
     body {
-        background: grey url(../Images/resized/1600_x_1080.jpg) no-repeat center;
+        background: grey url(../LandingPage/Images/resized/1600_x_1080.jpg) no-repeat center;
     }
 }
 
 /* Laptop L */
 @media screen and (min-width: 1600px) and (max-width: 1920px) {
     body {
-        background: grey url(../Images/resized/1920_x_1080.jpg) no-repeat center;
+        background: grey url(../LandingPage/Images/resized/1920_x_1080.jpg) no-repeat center;
     }
 }
 
 /* Ultrawide */
 @media screen and (min-width: 1920px) and (max-width: 2560px) {
     body {
-        background: grey url(../Images/resized/2560_x_1080.jpg) no-repeat center;
+        background: grey url(../LandingPage/Images/resized/2560_x_1080.jpg) no-repeat center;
     }
 }
 
 /* Large Ultrawide */
 @media screen and (min-width: 2560px) and (max-width: 3840px) {
     body {
-        background: grey url(../Images/resized/3840_x_2160.jpg) no-repeat center;
+        background: grey url(../LandingPage/Images/resized/3840_x_2160.jpg) no-repeat center;
     }
 }
 

@@ -9,15 +9,11 @@
     color: white;
 }
 
-.blank_space {
-    height: 7.5vh;
-}
-
 .sec_image {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 85vh;
+    height: 100vh;
     /**/
     text-shadow: 2px 2px 2px rgb(0, 0, 0)
     
@@ -39,6 +35,14 @@
 }
 
 .text_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     max-width: 250px;
     text-align: center;
+}
+
+.sec_title {
+    max-width: 200px;
+    margin: auto;
 }
