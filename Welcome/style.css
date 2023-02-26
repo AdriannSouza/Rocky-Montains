@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;0,900;1,300;1,600&display=swap');
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+#rock_texture {
+
+}
+
+#blank_space {
+    height: 7.5vh;
+}
+
+.sec_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    /**/
+    text-shadow: 2px 2px 2px rgb(0, 0, 0)
+    
+}
+
+#first_image {
+    background: grey url(images/paralax2.jpg) no-repeat fixed;
+    background-size: cover; 
+}
+
+#second_image {
+    background: grey url(images/wildlife-mammals.jpg) no-repeat fixed;
+    background-size: cover; 
+}
+
+#third_image {
+    background: grey url(images/moraine-lake.jpg) center no-repeat fixed;
+    background-size: cover; 
+}
+
+.text_section {
+    max-width: 250px;
+    text-align: center;
+}
+
+.sec_title {
+
+}
+
+.sec_message {
+    
+}
