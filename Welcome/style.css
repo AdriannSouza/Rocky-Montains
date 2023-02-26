@@ -9,6 +9,10 @@
     color: white;
 }
 
+.blank_space {
+    height: 7.5vh;
+}
+
 .sec_image {
     display: flex;
     justify-content: center;
@@ -35,9 +39,6 @@
 }
 
 .text_section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     max-width: 250px;
     text-align: center;
 }
