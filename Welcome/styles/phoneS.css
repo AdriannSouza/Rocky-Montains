@@ -1,0 +1,12 @@
+#first_image {
+    background: white url(../images/responsive/First\ Image\ Responsive/) no-repeat center fixed;
+    background-size: cover; 
+    }
+    #second_image {
+    background: white url(images/original/mammals-fadded.jpg) no-repeat center fixed;
+    background-size: cover; 
+    }
+    #third_image {
+    background: white url(images/original/moraine-lake.jpg) center no-repeat fixed;
+    background-size: cover; 
+    }

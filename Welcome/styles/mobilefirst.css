@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;0,900;1,300;1,600&display=swap');
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* IMAGES CONTAINER */
+.sec_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    /**/
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.26);
+    color: white;
+    /**/
+}
+    /* IMAGES ITENS */
+    #first_image {
+    background: white url(images/original/rocky-fadded.jpg) no-repeat center fixed;
+    background-size: cover; 
+    }
+    #second_image {
+    background: white url(images/original/mammals-fadded.jpg) no-repeat center fixed;
+    background-size: cover; 
+    }
+    #third_image {
+    background: white url(images/original/moraine-lake.jpg) center no-repeat fixed;
+    background-size: cover; 
+    }
+
+    /* TEXT CONTAINER INSIDE */
+    .image_text_section {
+        max-width: 250px;
+        text-align: center;
+        text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    }
+        .sec_title {
+            max-width: 200px;
+            margin: auto;
+        }
+
+
+/* INFORMATION CONTAINER */
+.sec_info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 22px;
+}
+    /* DIVISIONS */
+    .sec_info_box {
+        max-width: 650px;
+        line-height: 27px;
+        text-align: justify;
+    }
+        /* TEXT INSIDE */
+        .info_text {}
+            .info_text h3, p {
+                margin: 8px;
+            }
+            .right_title {
+                text-align: end;
+            }
+
+
+
+
+
+
+
+
