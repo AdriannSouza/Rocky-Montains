@@ -8,8 +8,7 @@
     text-decoration: none;
 }
 
-
-
+/* IMAGES CONTAINER */
 .sec_image {
     display: flex;
     justify-content: center;
@@ -17,54 +16,58 @@
     height: 80vh;
     /**/
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.26);
     color: white;
+    /**/
 }
-
-#first_image {
+    /* IMAGES ITENS */
+    #first_image {
     background: grey url(images/paralax-fadded.jpg) no-repeat center fixed;
     background-size: cover; 
-}
-
-#second_image {
+    }
+    #second_image {
     background: grey url(images/wildlife-mammals-fadded.jpg) no-repeat fixed;
     background-size: cover; 
-}
-
-#third_image {
+    }
+    #third_image {
     background: grey url(images/moraine-lake-fadded.jpg) center no-repeat fixed;
     background-size: cover; 
-}
+    }
 
-.image_text_section {
-    max-width: 250px;
-    text-align: center;
-}
+    /* TEXT CONTAINER INSIDE */
+    .image_text_section {
+        max-width: 250px;
+        text-align: center;
+    }
+        .sec_title {
+            max-width: 200px;
+            margin: auto;
+        }
 
-.sec_title {
-    max-width: 200px;
-    margin: auto;
-}
 
-.sec_info_box {
-    margin: 42px;
-    line-height: 27px;
-    max-width: 800px;
-    text-align: justify;
-}
-
+/* INFORMATION CONTAINER */
 .sec_info {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    gap: 40px;
 }
+    /* DIVISIONS */
+    .sec_info_box {
+        max-width: 800px;
+        line-height: 27px;
+        text-align: justify;
+        padding: 20px;
+        border: 1px solid black;
+    }
+        /* TEXT INSIDE */
+        .info_text {}
+            .info_text h3, p {
+                margin: 8px;
+            }
+            .right_title {
+                text-align: end;
+            }
 
-.sec_info_box div p, h3 {
-    margin: 8px;
-}
-
-.par {
-    text-align: end;
-}
 
 
 
