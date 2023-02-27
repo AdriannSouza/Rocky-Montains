@@ -10,22 +10,3 @@
     background: white url(../images/responsive/Third-Image-Responsive/1024_x_1080.jpg) center no-repeat fixed;
     background-size: cover; 
     }
-
-    /* INFORMATION CONTAINER */
-.sec_info {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    padding: 20px 22px;
-}
-    /* DIVISIONS */
-    .sec_info_box {
-        max-width: 500px;
-        padding: 10px;
-        line-height: 27px;
-        text-align: justify;
-    }
-
-    h3 {
-        text-align: center;
-    }
