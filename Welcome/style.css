@@ -49,15 +49,13 @@
 .sec_info {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    padding: 20px 22px;
 }
     /* DIVISIONS */
     .sec_info_box {
         max-width: 800px;
         line-height: 27px;
         text-align: justify;
-        padding: 20px;
-        border: 1px solid black;
     }
         /* TEXT INSIDE */
         .info_text {}
