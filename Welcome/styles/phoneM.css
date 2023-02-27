@@ -1,0 +1,12 @@
+#first_image {
+    background: white url(../images/responsive/First-Image-Responsive/375_x_900.jpg) no-repeat center fixed;
+    background-size: cover; 
+    }
+    #second_image {
+    background: white url(../images/responsive/Second-Image-Responsive/375_x_900.jpg) no-repeat center fixed;
+    background-size: cover; 
+    }
+    #third_image {
+    background: white url(../images/responsive/Third-Image-Responsive/375_x_900.jpg) center no-repeat fixed;
+    background-size: cover; 
+    }
