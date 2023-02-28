@@ -66,20 +66,20 @@ main {
         #main_title {
             font-size: 2.25em;
             width: fit-content;
-            padding: 20px;
+            padding: 20px 0px;
             border-radius: 10px;
             animation: main_title 4.5s ease-in-out 5s infinite;
         }
         @keyframes main_title {
             0% {
                 background-color: rgba(0, 0, 0, 0.080);
-                padding: 20px;
+                padding: 20px 2px;
                 font-size: 36px;
             }
 
             50% {
                 background-color: rgba(0, 0, 0, 0.100);
-                padding: 23px;
+                padding: 23px 0px;
                 font-size: 37px
             }
 
