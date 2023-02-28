@@ -68,24 +68,21 @@ main {
             width: fit-content;
             padding: 20px 0px;
             border-radius: 10px;
-            animation: main_title 4.5s ease-in-out 5s infinite;
+            animation: main_title 5.5s ease-in-out 5s infinite;
         }
         @keyframes main_title {
             0% {
                 background-color: rgba(0, 0, 0, 0.080);
-                padding: 20px 2px;
                 font-size: 36px;
             }
 
             50% {
                 background-color: rgba(0, 0, 0, 0.100);
-                padding: 23px 0px;
                 font-size: 37px
             }
 
             100% {
                 background-color: rgba(0, 0, 0, 0.080);
-                padding: 20px;
                 font-size: 36px;                
             }
         }
@@ -182,14 +179,14 @@ footer {
             padding: 26px;
             font-size: 1.7em;                
         }
+    }
 
-    #main-title:hover {
+    #main_title:hover {
         font-size: 1.5em;
         
         transition: 0.5s;
         background-color: rgba(0, 0, 0, 0.137);
     }
-  }
 }
 
 /* Mobile S */
