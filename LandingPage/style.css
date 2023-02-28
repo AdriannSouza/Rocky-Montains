@@ -33,15 +33,15 @@ header {
     height: 12vh;
 }
 
-ul {
-    display: flex;
-    gap: 20px;
-}
+    ul {
+        display: flex;
+        gap: 20px;
+    }
 
-.nav-links {
-    font-weight: 500;
-    font-size: 18px;
-}
+        .nav-links {
+            font-weight: 500;
+            font-size: 18px;
+        }
 
 
 /* ----------Main----------- */
@@ -50,35 +50,52 @@ main {
     height: 80vh;
 }
 
-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
 
-#message {
-    max-width: 500px;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.705);
-    font-size: 1.25em;
-}
+        #main_message {
+            max-width: 500px;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.705);
+            font-size: 1.25em;
+        }
+        #main_title {
+            font-size: 2.25em;
+            width: fit-content;
+            padding: 20px;
+            border-radius: 10px;
+            animation: main_title 4.5s ease-in-out 5s infinite;
+        }
+        @keyframes main_title {
+            0% {
+                background-color: rgba(0, 0, 0, 0.080);
+                padding: 20px;
+                font-size: 36px;
+            }
 
+            50% {
+                background-color: rgba(0, 0, 0, 0.100);
+                padding: 23px;
+                font-size: 37px
+            }
 
-#main-title {
-    font-size: 2.25em;
-    width: fit-content;
-    
-    padding: 20px;
-}
-
-#main-title:hover {
-    font-size: 2.35em;
-    color: rgb(180, 179, 179);
-    background-color: rgba(0, 0, 0, 0.212);
-    border-radius: 8px;
-    transition: 0.6s;
-}
+            100% {
+                background-color: rgba(0, 0, 0, 0.080);
+                padding: 26px;
+                font-size: 36px;                
+            }
+        }
+        #main_title:hover {
+            font-size: 2.35em;
+            color: rgb(180, 179, 179);
+            background-color: rgba(0, 0, 0, 0.212);
+            border-radius: 20px;
+            transition: 0.6s;
+        }
 
 /* ----------Footer----------- */
 footer {
@@ -101,7 +118,7 @@ footer {
     font-weight: 500;
 }
 
-#my-name:hover {
+#my_name:hover {
     color: rgb(180, 179, 179);
     transition: 0.55s;
 }
@@ -109,6 +126,10 @@ footer {
 #icon {
     display: none;
 }
+
+
+
+
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
 
@@ -130,27 +151,46 @@ footer {
     }
 
     #title_header {
-        font-size: 1.3em;
+        font-size: 1.4em;
     }
 
-    #message {
+    #main_message {
         max-width: 300px;
         font-size: 1.065em;
     }
 
-    #main-title {
+    #main_title {
         font-size: 1.7em;
         padding: 20px;
     }
 
+    @keyframes main_title {
+        0% {
+            background-color: rgba(0, 0, 0, 0.080);
+            padding: 20px;
+            font-size: 1.7em;
+        }
+
+        50% {
+            background-color: rgba(0, 0, 0, 0.010);
+            padding: 23px;
+            font-size: 1.75em;
+        }
+
+        100% {
+            background-color: rgba(0, 0, 0, 0.080);
+            padding: 26px;
+            font-size: 1.7em;                
+        }
+
     #main-title:hover {
-        font-size: 1.8em;
+        font-size: 1.5em;
         
         transition: 0.5s;
         background-color: rgba(0, 0, 0, 0.137);
     }
+  }
 }
-
 
 /* Mobile S */
 @media screen and (min-width: 320px) and (max-width: 375px) {
@@ -223,4 +263,4 @@ footer {
     }
 }
 
-/* Ultralarge displats are default */
+/* Ultralarge displays are default */
