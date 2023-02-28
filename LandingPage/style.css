@@ -164,19 +164,19 @@ footer {
     @keyframes main_title {
         0% {
             background-color: rgba(0, 0, 0, 0.080);
-            padding: 20px;
+            padding: 20px 0px;
             font-size: 1.7em;
         }
 
         50% {
             background-color: rgba(0, 0, 0, 0.010);
-            padding: 23px;
+            padding: 23px 0px;
             font-size: 1.75em;
         }
 
         100% {
             background-color: rgba(0, 0, 0, 0.080);
-            padding: 26px;
+            padding: 26px 0px;
             font-size: 1.7em;                
         }
     }
